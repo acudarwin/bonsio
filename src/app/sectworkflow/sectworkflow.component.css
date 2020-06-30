@@ -1,0 +1,23 @@
+.workflow{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 240px 100px;
+}
+
+.workflow-sett{
+    grid-column: 1/4;
+    grid-row: 1/2;
+    text-align: center;
+}
+
+.card-deck{
+    grid-column: 1/4;
+    grid-row: 2/3;
+
+}
+
+.but-learn{
+    grid-column: 1/4;
+    grid-row: 3/4;
+    text-align: center;
+}

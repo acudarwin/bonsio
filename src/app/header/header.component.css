@@ -1,0 +1,141 @@
+.container{
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 700px;
+}
+
+.menu{
+    margin: 20px 40px 0 40px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.principal{
+    margin: 0 40px 0 40px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    line-height: 20px;
+}
+
+.navbar-nav{
+    font-size: 1.4em;    
+}
+
+.nav-item{
+    margin: 0 10px 0 10px;
+    padding: 0 10px 0 10px;
+}
+.nav-link{
+    color: black;
+
+}
+.btn-nav{
+    background: #fff;
+    color:blue;
+    font-weight: bold;
+    border-style: none;
+    width: 200px;
+    height: 70px;
+    font-size: 1.2em;
+    border-radius: 10px;
+}
+.btn-header{
+    background: rgba(148, 146, 146, 0.301) ;
+    color: #000;
+}
+
+.presentation {
+    width: 60%;
+    margin-top: 20px;
+}
+.description {
+   width: 80%;
+   margin-top: 20px;
+}
+
+.input-group{
+  width: 68%;
+  margin-top: 20px;
+}
+
+.input-group-append{
+    background: rgb(20, 161, 27);  
+    border-radius: 0px 4px 4px 0px;
+}
+.btn-get{
+    color: white;
+    font-weight: bold; 
+}
+
+.form-control{
+    -webkit-box-shadow: -6px 12px 5px 0px rgba(112,108,108,0.08);
+    -moz-box-shadow: -6px 12px 5px 0px rgba(112,108,108,0.08);
+    box-shadow: -6px 12px 5px 0px rgba(112,108,108,0.08);
+}
+
+.text-details{
+    color: #7E8393;
+    margin: 0;
+    padding: 0;
+    line-height: 0.5;
+    font-size: 10px;
+}
+
+.free-asana{
+    background: #A444D1;
+    color: white;
+    margin-top: 20px;
+    width: 60%;
+    font-size: 1.2em;
+}
+
+.effect-black{
+    width: 64%;
+    height: 550px;
+    background: black;
+    border-radius: 0px 0px 0px 91px;
+    -moz-border-radius: 0px 0px 0px 91px;
+    -webkit-border-radius: 0px 0px 0px 91px;
+    border: 0px ridge #000000;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    margin-top: 0;
+    margin-left: 240px;
+    -webkit-transform: skewY(10deg) translateY(120px);
+    -moz-transform: skewY(10deg) translateY(120px);
+    -ms-transform: skewY(10deg) translateY(120px);
+    transform: skewY(10deg) translateY(120px);
+}
+
+.effect-min{
+    width: 64%;
+    height: 400px;
+    background: black;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    margin-top: 0;
+    margin-left: 240px;
+}
+.nav-log{
+    color: #fff;
+    font-weight: bold;    
+}
+
+.drop {
+    margin-top: 100px;
+}
+
+.dropdown-item{
+    font-size: 1em;
+}

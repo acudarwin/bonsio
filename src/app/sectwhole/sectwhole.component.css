@@ -1,0 +1,27 @@
+.whole{
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 400px;
+}
+
+.items{
+    margin: 50px auto 50px auto ;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 40%;
+    height: 90%;
+    background: rgb(126, 124, 124);
+}
+
+.produck{
+    margin: 50px auto 50px auto;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    width: 68%;
+    line-height: 20px;
+}
+
+.produck-fragment{
+    padding-top: 20px;
+}
