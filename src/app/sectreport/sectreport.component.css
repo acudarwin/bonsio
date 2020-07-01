@@ -21,3 +21,22 @@
     height: 100%;
     
 }
+
+.planreport-plan-replans{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.planreport-plan-des{
+    padding: 0 100px 0 0;
+}
+
+.planreport-plan-report{
+    padding: 0 140px 0 0;
+}
+
+.card{
+    background: rgba(231, 227, 227);
+    font-size: 0.8em;
+    width: 80%;
+}
