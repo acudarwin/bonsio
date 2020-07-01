@@ -1,12 +1,13 @@
 .support{
-    background: rgb(194, 191, 191);
     max-width: 100%;
+    background: rgb(194, 191, 191);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 400px 480px 400px;
 }
 
 .card-deck {
+    max-width: 100%;
     padding: 150px 80px 40px 80px;
     margin-top: 0;
 }
@@ -22,11 +23,13 @@
 }
 
 .card-deck:nth-child(2){
+    max-width: 100%;
     grid-column: 1/4;
     grid-row: 2/3;
 }
 
 .support-imgbut{
+    max-width: 100%;
     grid-column: 1/4;
     grid-row: 3/4;
     width: 88%;
@@ -69,4 +72,8 @@
 .card-link{
     color: #fff;
     margin: 0 0 0 20px;
+}
+
+.card-title{
+    font-weight: bold;
 }

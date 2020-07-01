@@ -1,22 +1,26 @@
 .workflow{
+    max-width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 100px 240px 200px;
 }
 
 .workflow-sett{
+    max-width: 100%;
     grid-column: 1/4;
     grid-row: 1/2;
     text-align: center;
 }
 
 .card-deck{
+    max-width: 100%;
     grid-column: 1/4;
     grid-row: 2/3;
     padding: 0 80px 0 80px;
 }
 
 .but-learn{
+    max-width: 100%;
     grid-column: 1/4;
     grid-row: 3/4;
     text-align: center;
@@ -25,4 +29,19 @@
 
 .card{
     text-align: center;
+}
+
+.card-img-top{
+    width: 80px;
+    height: 80px;
+    margin: auto;
+}
+
+.card-title{
+    text-align: center;
+    font-weight: bold;
+}
+
+.btn{
+    font-weight: bold;
 }
