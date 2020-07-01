@@ -1,7 +1,7 @@
 .livereporting{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 300px 100px 100px;
+    grid-template-rows: 400px 200px 200px;
 }
 
 .livereporting-graph{
@@ -9,17 +9,17 @@
     grid-row: 1/2;
     width: 100%;
     height: 100%;
-   margin: auto;
-   text-align: center;
+    margin: auto;
+    text-align: center;
 }
 
 .livereporting-cardgen{
     grid-column: 1/2;
     grid-row: 2/3;
-    width: 60%;
+    width: 44%;
     height: 100%;
     margin: auto;
-    
+    text-align: center;
 }
 
 .livereporting-carddet{
@@ -38,6 +38,7 @@
     width: 60%;
     height: 100%;
     align-items: center;
+    
 }
 
 .livereporting-carddet-det:nth-child(2){
@@ -47,4 +48,8 @@
     width: 60%;
     height: 100%;
     align-items: center;
+}
+
+.card{
+    background: rgb(211, 211, 211);
 }
