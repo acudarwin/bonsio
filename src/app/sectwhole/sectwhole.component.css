@@ -6,22 +6,54 @@
 }
 
 .items{
-    margin: 50px auto 50px auto ;
+    background: rgb(236, 236, 236);
+    margin: 60px auto 60px auto ;
     grid-column: 1/2;
     grid-row: 1/2;
     width: 40%;
     height: 90%;
-    background: rgb(126, 124, 124);
+}
+
+.items-list-details{
+    line-height: 30px;
+}
+
+.oscur{
+    background: black;
 }
 
 .produck{
     margin: 50px auto 50px auto;
     grid-column: 2/3;
     grid-row: 1/2;
-    width: 68%;
+    width: 74%;
+    height: 100%;
     line-height: 20px;
 }
 
+.produck-descrip{
+    padding-top: 10px;
+    padding-right: 30px;
+}
+
 .produck-fragment{
-    padding-top: 20px;
+    padding-top: 10px;
+    padding-left: 40px;
+}
+
+.org{
+    font-size: 2em;
+    font-weight: bold;
+    display: block;
+    padding-right: 260px;
+}
+
+.prise-img{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 6px;
+    padding-right: 6px; 
+}
+.items-list-details{
+    list-style: none;
 }
