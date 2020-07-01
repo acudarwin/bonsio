@@ -1,0 +1,40 @@
+.footer{
+    max-width: 100%;
+    height: 140px;
+    background: rgb(194, 191, 191);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 80px 60px;
+    margin-top: 0;
+}
+
+.networks{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin: auto;
+}
+
+.polits{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin-top: 0;
+    text-align: center;
+}
+
+.social-network{
+    width: 30px;
+    height: 30px;
+    margin: 0 10px 0 10px;
+}
+
+.btn{
+    margin: 0 10px 0 10px;
+    font-size: 1em;
+}
+.card-link{
+    margin: 0 10px 0 10px
+}
+
+.card-link:nth-child(4), .card-link:nth-child(5){
+    color: #000;
+}
