@@ -3,7 +3,17 @@
     max-width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 300px 300px 200px;
+    grid-template-rows: 400px 480px 400px;
+}
+
+.card-deck {
+    padding: 150px 80px 40px 80px;
+    margin-top: 0;
+}
+
+.card{
+    background: rgb(194, 191, 191);    
+    border-style: none;
 }
 
 .card-deck:nth-child(1){
@@ -19,4 +29,44 @@
 .support-imgbut{
     grid-column: 1/4;
     grid-row: 3/4;
+    width: 88%;
+    height: 60%;
+    background: blue;
+    color: #fff;
+    padding: 0 40px 0 40px;
+    margin: auto;
+}
+
+.card-img-top{
+    width: 150px;
+    height: 150px;
+}
+
+.support-imgbut-titele{
+    margin: 20px 0 0 40px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.support-imgbut-descri{
+    margin: 20px 0 0 40px;
+    line-height: 60px;
+}
+
+.btn-nav{
+    margin: 20px 0 0 40px;
+    line-height: 40px;
+    background: #fff;
+    color:  rgb(60, 129, 240);;
+    font-weight: bold;
+    border-style: none;
+    width: 200px;
+    height: 70px;
+    font-size: 1.2em;
+    border-radius: 10px;
+}
+
+.card-link{
+    color: #fff;
+    margin: 0 0 0 20px;
 }
