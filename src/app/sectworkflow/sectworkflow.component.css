@@ -1,7 +1,7 @@
 .workflow{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 100px 240px 100px;
+    grid-template-rows: 100px 240px 200px;
 }
 
 .workflow-sett{
@@ -13,11 +13,16 @@
 .card-deck{
     grid-column: 1/4;
     grid-row: 2/3;
-
+    padding: 0 80px 0 80px;
 }
 
 .but-learn{
     grid-column: 1/4;
     grid-row: 3/4;
+    text-align: center;
+    padding: 40px 0 0 0;
+}
+
+.card{
     text-align: center;
 }
