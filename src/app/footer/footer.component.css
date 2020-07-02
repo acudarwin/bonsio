@@ -38,3 +38,7 @@
 .card-link:nth-child(4), .card-link:nth-child(5){
     color: #000;
 }
+
+.btn-lg{
+    font-weight: bold;
+}
