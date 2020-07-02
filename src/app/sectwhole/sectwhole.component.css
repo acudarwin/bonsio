@@ -1,5 +1,6 @@
 .whole{
     max-width: 100%;
+    height: 450px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 400px;
@@ -23,6 +24,10 @@
 
 .oscur{
     background: black;
+    width: 60px;
+    height: 60px;
+    color: white;
+    font-weight: bold;
 }
 
 .produck{
@@ -41,7 +46,7 @@
 
 .produck-fragment{
     padding-top: 10px;
-    padding-left: 40px;
+    padding-left: 20px;
 }
 
 .org{
@@ -59,4 +64,9 @@
 }
 .items-list-details{
     list-style: none;
+}
+
+img{
+    width: 30px;
+    height: 30px;
 }
