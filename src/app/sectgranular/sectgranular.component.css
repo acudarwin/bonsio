@@ -11,6 +11,10 @@
     grid-row: 1/2;
     width: 100%;
     height: 100%;
+    background: blue;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
     
 }
 
@@ -37,6 +41,67 @@
     padding: 0 120px 0 0;
 }
 
-.granular-roles-permi{
+img{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
 
+thead, td{
+    text-align: center;
+}
+
+.table{
+    grid-column: 1/2;
+    grid-row: 1/3;
+    background: #fff;
+    font-size: 0.8em;
+    width: 600px;
+    margin: 50px 0 0 40px;
+    z-index: 1;
+}
+
+.rol-enter{
+    width: 60%;
+    height: 80px;
+    background: #fff;
+    z-index: 2;
+    margin: 0 0 10px 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.rol-enter-nam{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin: 20px 0 0 20px;
+    font-size: 0.8em;
+}
+
+.rol-enter-namemail{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin: 0 0 0 20px;
+    font-size: 0.8em;
+    line-height: 0;
+}
+
+.btn-group{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    width: 70%;
+    height: 90%;
+    padding: 10px 0 0 0;
+}
+
+.rol-two{
+    width: 60%;
+    height: 80px;
+    background: #fff;
+    z-index: 3;
+    margin: 0 0 2px 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
