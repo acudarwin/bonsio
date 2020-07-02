@@ -12,6 +12,9 @@
     grid-row: 1/2;
     width: 40%;
     height: 90%;
+    -webkit-box-shadow: 0px 16px 30px 5px rgba(145,139,145,1);
+    -moz-box-shadow: 0px 16px 30px 5px rgba(145,139,145,1);
+    box-shadow: 0px 16px 30px 5px rgba(145,139,145,1);
 }
 
 .items-list-details{

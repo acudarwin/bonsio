@@ -20,7 +20,6 @@
     grid-row: 1/2;
     width: 100%;
     height: 100%;
-    background: yellow;
 }
 
 .monitor-p{
@@ -43,6 +42,9 @@
     border-left: solid;
     border-color: rgb(149, 15, 149);
     margin: 0 0 4px 0px;
+    -webkit-box-shadow: 13px 16px 30px 5px rgba(145,139,145,1);
+    -moz-box-shadow: 13px 16px 30px 5px rgba(145,139,145,1);
+    box-shadow: 13px 16px 30px 5px rgba(145,139,145,1);
 }
 
 .projects-internal{
@@ -52,6 +54,9 @@
     border-left: solid;
     border-color: green;
     margin: 0 0 4px 0px;
+    -webkit-box-shadow: 13px 16px 30px 5px rgba(145,139,145,1);
+    -moz-box-shadow: 13px 16px 30px 5px rgba(145,139,145,1);
+    box-shadow: 13px 16px 30px 5px rgba(145,139,145,1);
 }
 
 .projects-apple{
@@ -61,6 +66,9 @@
     border-left: solid;
     border-color:violet;
     margin: 0 0 4px 0px;
+    -webkit-box-shadow: 13px 16px 30px 5px rgba(145,139,145,1);
+    -moz-box-shadow: 13px 16px 30px 5px rgba(145,139,145,1);
+    box-shadow: 13px 16px 30px 5px rgba(145,139,145,1);
 }
 
 .projects-ux{
@@ -70,6 +78,9 @@
     border-left: solid;
     border-color: blue;
     margin: 0 0 4px 0px;
+    -webkit-box-shadow: 13px 16px 30px 5px rgba(145,139,145,1);
+    -moz-box-shadow: 13px 16px 30px 5px rgba(145,139,145,1);
+    box-shadow: 13px 16px 30px 5px rgba(145,139,145,1);
 }
 
 .projects-newagen{
@@ -79,6 +90,9 @@
     border-left: solid;
     border-color:red;
     margin: 0 0 4px 0px;
+    -webkit-box-shadow: 13px 16px 30px 5px rgba(145,139,145,1);
+    -moz-box-shadow: 13px 16px 30px 5px rgba(145,139,145,1);
+    box-shadow: 13px 16px 30px 5px rgba(145,139,145,1);
 }
 
 .air, .timer{

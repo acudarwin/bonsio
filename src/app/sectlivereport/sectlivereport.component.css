@@ -54,3 +54,9 @@
 .card{
     background: rgb(211, 211, 211);
 }
+
+img{
+    width: 800px;
+    height: 300px;
+    margin: 0 0 20px 0;
+}

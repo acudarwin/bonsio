@@ -35,7 +35,7 @@
     grid-row: 3/4;
     width: 88%;
     height: 60%;
-    background: blue;
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
     color: #fff;
     padding: 0 40px 0 40px;
     margin: auto;

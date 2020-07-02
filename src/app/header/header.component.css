@@ -157,6 +157,9 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    -webkit-box-shadow: -1px 8px 30px 5px rgba(145,139,145,1);
+    -moz-box-shadow: -1px 8px 30px 5px rgba(145,139,145,1);
+    box-shadow: -1px 8px 30px 5px rgba(145,139,145,1);
 }
 
 .bene{
@@ -198,6 +201,9 @@
     grid-template-rows: 1fr 1fr;
     margin: 0;
     background: rgba(148, 146, 146, 0.301);
+    -webkit-box-shadow: -1px 8px 30px 5px rgba(145,139,145,1);
+    -moz-box-shadow: -1px 8px 30px 5px rgba(145,139,145,1);
+    box-shadow: -1px 8px 30px 5px rgba(145,139,145,1);
 }
 
 .rol-enter-nam{
@@ -231,7 +237,10 @@
     margin: 0;
     border: solid;
     border-color: rgb(255, 255, 0);
-    background: rgb(248, 248, 112)
+    background: rgb(248, 248, 112);
+    -webkit-box-shadow: -1px 8px 30px 5px rgba(145,139,145,1);
+    -moz-box-shadow: -1px 8px 30px 5px rgba(145,139,145,1);
+    box-shadow: -1px 8px 30px 5px rgba(145,139,145,1);
 }
 
 .rol-other-nam {
